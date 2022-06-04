@@ -5,7 +5,9 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/test.check "1.1.1"]
-                 [net.mikera/core.matrix] "0.62.0"]
+                 [org.clojure/spec.alpha "0.3.218"]
+                 [org.clojure/data.csv "1.0.1"]
+                 [net.mikera/core.matrix "0.62.0"]]
   :main ^:skip-aot luminosity-analyser.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
