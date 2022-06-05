@@ -56,9 +56,9 @@
         normalised (normalise-fmax (first subsets) corrected) ;;drug to normalise against MUST be first, column format
         normalised-subsets (subset (matrix/columns normalised) (rest config) :chemical/time-start :chemical/time-end) ;;drop the normalising drug, only need other drug peaks, row format
         normalised-peaks (peak-subsets normalised-subsets (rest config) :chemical/peak-start :chemical/peak-end) ;;row format
-        peak-max (col-max normalised-peaks)] ;;column format
+        peak-max (map col-max normalised-peaks)] ;;column format
     (prn percentage-responses)
-    {:responses responses
+    {:responses (map binary-response responses)
      :percent-response percentage-responses
-     :normalised-data (matrix/columns normalised)
+     :normalised-data normalised
      :peak-maxes peak-max}))

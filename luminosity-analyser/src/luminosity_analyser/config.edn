@@ -1,5 +1,6 @@
 [{:data/start-col 1
-  :data/end-col 301}
+  :data/end-col 301
+  :data/x-label "Time"}
  {:chemical/name "Ionomycin"
   :chemical/time-start 180
   :chemical/time-end 240
