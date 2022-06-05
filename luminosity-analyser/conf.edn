@@ -1,0 +1,13 @@
+[{:data/start-col 1
+  :data/end-col 301
+  :data/x-label "Time"}
+ {:chemical/name "Ionomycin"
+  :chemical/time-start 130
+  :chemical/time-end 240
+  :chemical/peak-start 60
+  :chemical/peak-end 100}
+ {:chemical/name "p1"
+  :chemical/time-start 0
+  :chemical/time-end 130
+  :chemical/peak-start 20
+  :chemical/peak-end 70}]
