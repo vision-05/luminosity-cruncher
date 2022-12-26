@@ -1,13 +1,28 @@
 [{:data/start-col 1
-  :data/end-col 301
+  :data/end-col 334
   :data/x-label "Time"}
- {:chemical/name "Ionomycin"
-  :chemical/time-start 130
-  :chemical/time-end 240
-  :chemical/peak-start 60
-  :chemical/peak-end 100}
- {:chemical/name "p1"
+ {:chemical/name "KCL"
+  :chemical/time-start 460
+  :chemical/time-end 480
+  :chemical/peak-start 5
+  :chemical/peak-end 20}
+ {:chemical/name "Capsacin"
   :chemical/time-start 0
-  :chemical/time-end 130
+  :chemical/time-end 35
   :chemical/peak-start 20
-  :chemical/peak-end 70}]
+  :chemical/peak-end 40}
+ {:chemical/name "Cinnemaldehyde"
+  :chemical/time-start 135
+  :chemical/time-end 155
+  :chemical/peak-start 5
+  :chemical/peak-end 20}
+ {:chemical/name "HNE"
+  :chemical/time-start 255
+  :chemical/time-end 275
+  :chemical/peak-start 5
+  :chemical/peak-end 20}
+ {:chemical/name "Hydrogen Peroxide"
+  :chemical/time-start 375
+  :chemical/time-end 390
+  :chemical/peak-start 5
+  :chemical/peak-end 20}]
