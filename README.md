@@ -1,5 +1,3 @@
 # luminosity-cruncher
 
-Code to analyser flouresence of cells in experiments
-Yes I know I named the repo luminosity analyser
-I already named it and it's too much effort to rename a repo
+Code to analyse flouresence of cells in pharmaceutical experiments as a way of measuring ion channel response to various chemicals in cells.
